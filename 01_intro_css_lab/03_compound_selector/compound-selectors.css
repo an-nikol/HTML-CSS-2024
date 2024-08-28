@@ -1,0 +1,28 @@
+p.highlighted{
+    color: rgb(0, 94, 255);
+    font-size: 17;
+    font-weight: bold;
+}
+div#unique{
+    background-color: rgb(250, 182, 34);
+    padding: 0px;
+}
+
+.pretty.girly{
+    color: blue;
+    font-style: bold;
+}
+
+#list-item-1{
+    color: rgb(92, 201, 205);
+    font-weight: bolder;
+}
+#list-item-3{
+    color: rgba(255, 0, 0, 0.866);
+    font-style: italic;
+    font-weight: bold;
+}
+
+[href="https://softuni.bg/"].special-link{
+    color: rgb(255, 0, 191);
+}

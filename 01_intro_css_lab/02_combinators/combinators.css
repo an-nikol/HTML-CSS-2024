@@ -1,5 +1,5 @@
 div p{
-    color: hotpink;
+    color: blue;
 }
 
 ul li{
@@ -7,9 +7,15 @@ ul li{
 }
 
 div + p{
-    background-color: yellow;
+    color: blue;
+    background-color: lightgray;
 }
 
 p span{
-    font-weight:bold ;
+    color: red;
+    font-weight:bold;
+}
+span{
+    color: red;
+    font-weight: bold;
 }
