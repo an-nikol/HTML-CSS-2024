@@ -1,0 +1,15 @@
+div p{
+    color: hotpink;
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+div + p{
+    background-color: yellow;
+}
+
+p span{
+    font-weight:bold ;
+}

@@ -1,0 +1,25 @@
+h1{
+    color: blueviolet;
+}
+
+.paragraph{
+    font-size: 16px;
+}
+
+.highlighted{
+    background-color: rgb(80, 200, 255);
+}
+
+#main-title{
+    background-color: azure;
+}
+
+#unique-par{
+    font-style: italic;
+}
+
+.ul{
+    color:black;
+    font-style: oblique;
+    color: brown;
+}
