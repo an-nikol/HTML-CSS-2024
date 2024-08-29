@@ -1,0 +1,45 @@
+/* Descendant Selector */
+nav ul li a {
+    color: navy;
+    text-decoration: none;
+}
+
+/* Child Combinator */
+section > article > div > p{
+    background-color: lightblue ;
+}
+
+/* Adjacent Sibling Combinator */
+p + footer{
+    background-color: #f9ffd97c;
+}
+
+
+/* General Sibling Combinator */
+div~footer{
+    color: salmon;
+}
+
+/*Attribute Selector*/
+.gallery img[src="images/bear.jpg"]{
+    width: 200px;
+    border: 10px solid red;
+}
+
+/*Pseudo-class Selector*/
+li:first-child{
+    color: rgb(130, 238, 161);
+}
+
+/*Pseudo-element Selector*/
+
+h1::before {
+    content: ">> ";
+    color: darkred;
+}
+
+h1::after {
+    content: " <<";
+    color: darkred;
+}
+
