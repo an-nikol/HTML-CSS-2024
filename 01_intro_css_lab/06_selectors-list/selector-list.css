@@ -1,0 +1,26 @@
+/* Selector List for Text Styles */
+
+h1, h2, p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+/* Selector List for Layout Styles */
+
+header, section, footer, nav{
+    margin-top: 12px;
+    padding-top: 3px;
+}
+
+/* Selector List for Hover Effects */
+
+/* Selector List for Hover Effects */
+nav a:hover, footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Combining Different Types of Selectors */
+
+nav, section, article, footer{
+    border-style: outset;
+}
