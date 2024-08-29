@@ -1,0 +1,30 @@
+/* Descendant Selector: */
+article.premium p{
+    color: firebrick;
+    font-weight: bold;
+}
+
+/* Child Selector: */
+section > p{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Adjacent Sibling Selector: */
+h2 + p{
+    background-color: gainsboro;
+    color: rgb(23, 6, 132);
+}
+
+/* General Sibling Selector: */
+section ~ h2{
+    color:orchid;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Combining Relative Selectors for specificity */
+li.specific-class + li a {
+    color: green;
+}
