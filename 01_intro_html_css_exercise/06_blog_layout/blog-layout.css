@@ -1,0 +1,16 @@
+h1{
+    color: grey;
+    text-decoration: underline;
+}
+
+ul:first-of-type{
+    color: red;
+}
+#first{
+    color: rgb(93, 0, 255);
+}
+
+time{
+    color: grey;
+    font-style: italic;
+}
