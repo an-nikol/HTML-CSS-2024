@@ -1,0 +1,14 @@
+.uniform{
+    margin: 20px;
+    border: 2px solid grey;
+}
+
+.non-uniform{
+    margin: 10px 30px 20px 40px;
+    border: 2px solid grey;
+}
+
+.negative-margin{
+    margin: -20px;
+    border: 2px solid grey;
+}
