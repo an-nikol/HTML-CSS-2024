@@ -1,0 +1,62 @@
+html{
+    font-size: 14px;
+}
+
+section{
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+div{
+    border: 1px dotted black;
+    padding: 1.5em;
+}
+
+div p{
+    text-align: center;
+}
+
+div.margin{
+    background-color: #ff966f;
+    padding-top: 0.7em;
+}
+
+div.border{
+    background-color: #ffe8c6;
+    padding-top: 0.3em;
+}
+
+div.padding{
+    background-color: #85eb85;
+    padding-top: 0.3em;
+}
+
+div.content{
+    background-color: #a3d2e2;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.margin::before{
+    content: "margin";
+    position: relative;
+    top: -10px;
+    left: -10px;
+    
+    
+}
+
+div.border::before{
+    content: "border";
+    position: relative;
+    top: -5px;
+    left: -10px
+}
+
+div.padding::before{
+    content: "padding";
+    position: relative;
+    top: -5px;
+    left: -10px;
+
+}
