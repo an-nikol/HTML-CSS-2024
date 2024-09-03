@@ -1,0 +1,26 @@
+body{
+    border: 2px solid green;
+    margin: 0;
+    padding: 1em;
+}
+
+section.container{
+    max-width: 800px;
+    margin: 0 auto;
+    /* border: 1px solid red */
+}
+
+div.box{
+    border: 2px solid black;
+    margin: 1em;
+    padding: 2em;
+}
+
+
+div.wrapper{
+    border: 2px solid blue;
+}
+
+div>p{
+    padding-left: 1em;
+}

@@ -1,0 +1,21 @@
+body{
+    border: 2px solid green;
+    margin: 0;
+    padding: 1em 5em 2em 5em;
+}
+
+
+section.container{
+    max-width: 980px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+section > div{
+    margin: 1em;
+    border: 2px solid black;
+}
+
+div > p{
+    text-align: center;
+}
