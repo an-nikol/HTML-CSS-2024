@@ -1,25 +1,25 @@
 body {
     font: 14px/1.5 Lato, sans-serif;
+    margin: 0;
 }
 
 section{
-    overflow: hidden;
-    margin: 0 auto;
-    background-color: #eee;
-    background-image: url(images/image1.jpg);
-    background-position: center;
     background-size: cover;
     min-height: max(30vh, 500px);
-    position: relative;
+    background-position: center;
+    overflow: hidden;
+    background-color: #eee;
+    background-image: url(images/image1.jpg);
+    
 }
-
 .content{
-    color: #fff;
     max-width: 30rem;
-    text-align: center;
-    text-shadow: 0 0 1em #000;
     position: absolute;
-    top: 35%;
+    text-align: center;
+    top: 31%;
     left: 35%;
-    z-index: 100;
+    color: #fff;
+    text-shadow: 0 0 1em #000;
+    
+   
 }
