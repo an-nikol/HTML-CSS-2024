@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1em;
+}
+
+h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.container{
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+}
+
+.item{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.container.container-center{
+    justify-content: center;
+}
+
+.container.container-flex-end{
+    justify-content: flex-end;
+}
+
+.container.container-space-between{
+    justify-content: space-between;
+}
+
+.container.container-space-around{
+    justify-content: space-around;
+}
+
+.container.container-space-evenly{
+    justify-content: space-evenly;
+}

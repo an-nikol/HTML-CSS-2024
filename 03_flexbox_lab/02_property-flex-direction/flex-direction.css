@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1em;
+}
+
+h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.container{
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+}
+
+.item{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #eee;
+}
+
+
+/* flex-direction: row is by default(no need to type this prop) */
+
+.container.container-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.container.container-column{
+    flex-direction: column;
+}
+
+.container.container-column-reverse{
+    flex-direction: column-reverse;
+}
