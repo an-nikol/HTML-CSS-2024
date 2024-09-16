@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 14px/1.5 Lato, sans-serif;
+    background-color: #eeee;
+    padding: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.home-menu{
+    display: flex;
+    gap: 1em;
+    position: absolute; 
+    top: 10em;
+    right: 4em;
+}
+
+.home-menu > section{
+    border: 2px solid #c7bfbfa8;
+    padding: 0.3em 0.6em 0.3em 0.6em;
+    border-radius: 0.3em;
+}
+
+.home-menu > section > a{
+    text-decoration: none;
+    color: #727f81;
+    font-weight: bold;
+
+}
+
+header::before{
+    display: block;
+    content: "Blog";
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 2em;
+    background-color: green;
+    color: #ffff;
+    font-size: 2.5em;
+    padding: 0.2em;
+    text-align: center;
+    position: relative;
+    right: -6em;
+    bottom: -2.2em;
+}
+
+main{
+    display: flex;
+    gap: 3em;
+    padding: 2em;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h3{
+    margin-bottom: 0.5em;
+
+}
+aside{
+    border: 2px solid green;
+    padding: 0.3em 2em 0.3em 2em;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    font-style: italic;
+    color: grey
+    
+}
+
+aside section{
+    margin-bottom: 1em;
+}
+
+main .left-col{
+    display: flex;
+    flex: 0 0 79%;
+    gap: 1em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+aside section ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+aside section a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main .left-col div{
+    border: 2px solid green;
+    padding: 2em;
+    flex-grow: 1;
+}
+
+main .left-col .first-article{
+    display:flex;
+}
+
+main .left-col .second-article{
+    display: flex;
+}
+
+main .left-col .first-article .media{
+    max-width: 25em;
+    padding: 1em;
+
+}
+
+main .left-col .second-article .media{
+    max-width: 25em;
+    padding: 1em;
+}
