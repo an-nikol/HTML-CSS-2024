@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    height: 600px;
+    display: flex;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+
+
+.container{
+    max-width:900px;
+    height:400px;
+    margin: auto;
+    border: 2px solid grey;
+    padding: 1em;
+    background-color: #ddd;
+    border-radius: 0.3em;
+    border-bottom: 2px solid #aaaaaa;
+    border-bottom-width:4px;
+}
+
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    margin: 1em;
+    position: relative;
+}
+
+.keyboard div.line{
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+
+}
+
+/* keys */
+.keyboard div.line div{
+    border: 2px solid #cccccc;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0 1em rbg(0,0,0,0.1);
+    border-bottom: 3px solid rgb(182, 180, 180);
+}
+
+.backspace{
+    flex: 0 0 19%;
+    background-color: #eeeeee;
+}
+
+.keyboard div.enter{
+    flex: 0 0 17%;
+    height: 3em;
+    position: relative;
+    left: 1.7em;
+    background-color: #eeeeee !important;
+
+}
+
+.space{
+    flex: 0 0 100%;
+    height: 2.9em;
+    background-color: #ffffff !important;
+}
+
+
+/* enter */
+div.line:nth-child(4)::after{ 
+    content: "";
+    border: 2px solid #cccccc;
+    border-bottom: hidden;
+    height: 8em;
+    width: 6em;
+    position: relative;
+    bottom: 1.1em;
+    right: -2.92em;
+    border-top: hidden;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    background-color: #eeeeee !important;
+}
+
+/* first line keys */
+div.line:nth-child(1)>div{
+    background-color: #eeeeee;
+}
+
+
+/* first line keys */
+div.line:nth-child(6)>div{
+    background-color: #eeeeee;
+}
+
+div.line:nth-child(5){
+    position: relative;
+    top: -5em;
+}
+div.line:nth-child(6){
+   position: relative;
+   top: -4.3em;
+}
+
+/* grey line enter*/
+div.line:nth-child(3)::after{ 
+    content: "";
+    position: absolute;
+    width: 5.95em;
+    height: 0.5em;
+    right: -0.5em;
+    bottom:16.5em;
+    background-color: #eeeeee;
+    z-index: 2;
+
+}
+
+
