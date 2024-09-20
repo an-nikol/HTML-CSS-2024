@@ -16,56 +16,46 @@
     
     
     <main>
-        <h2>all</h2>
-        <p>Suitable for all devices</p>
-        <p>
-            @media all {
-                * {
-                    padding: 0;
-                    margin: 0;
-                    box-sizing: border-box;
-                }
+        <code>
+            <pre>
+    @media all {
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+                </pre>
                 
-                body {
-                    padding: 2em;
-                    font: 14px/1.5 Lato, sans-serif;
-                }    
-                
-                p {
-                    padding-bottom: 1.5em;
-                }
-            }
-            
-        </p>
-        
-        
+            </code>
+    
         <h2>print</h2>
         <p>Intended for paged material and documents viewed on a screen in print preview mode </p>
-        
-        <p>
-            
-            @media print {
-                body::before {
-                    display: block;
-                    content: 'The page is using a print preview or it was printed';
-                }
-            }
-            
-        </p>
-        
+
+        <code>
+            <pre>
+media print {
+    body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+    }
+}
+            </pre>
+        </code>
+              
         <h2>screen</h2>
         <p>Intended primarily for screens</p>
-        <p>
-            @media screen {
-                body::before {
-                    display: block;
-                    content: 'The page is being shown on a screen';
-                }
-            }
-            
-        </p>
-        
+       <code>
+        <pre>
+@media screen {
+    body::before {
+        display: block;
+        content: 'The page is being shown on a screen';
+    }
+}
+        </pre>
+       </code>
+               
     </main>
-     
-</body>
-</html>
+        
+    </body>
+    </html>

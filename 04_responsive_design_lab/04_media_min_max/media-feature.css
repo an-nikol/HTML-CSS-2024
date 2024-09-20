@@ -1,0 +1,40 @@
+@media all{
+    body{
+        padding: 1em;
+        font: 14px/1.5 Lato, sans-serif;
+    }
+}
+
+
+@media (width: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is exactly 800px';
+        padding: 1em;
+        background-color: #336699;
+        color: white;
+        border-radius: 0.3em;
+    }
+}       
+
+@media (min-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px';
+        padding: 1em;
+        background-color: #336699;
+        color: white;
+        border-radius: 0.3em;
+    }
+} 
+
+@media (max-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is smaller than 800px';
+        padding: 1em;
+        background-color: #336699;
+        color: white;
+        border-radius: 0.3em;
+    }
+}             

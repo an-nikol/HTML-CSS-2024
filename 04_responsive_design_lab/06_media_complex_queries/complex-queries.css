@@ -1,0 +1,48 @@
+@media all{
+    body{
+        padding: 1em;
+        font: 14px/1.5 Lato, sans-serif;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    pre{
+        font-weight: bolder;
+    }
+}
+
+@media (min-width: 30em) and (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 30em and the orientation is landscape.';
+        padding: 1em;
+        background-color: #336699;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+    body::before {
+        display: block;
+        content: 'The viewport height is larger than 680px or the media type is screen and the orientation is portrait.';
+        padding: 1em;
+        background-color: #336699;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+
+@media not (min-width: 600px) {
+    body::before {
+        display: block;
+        content: 'The view port is NOT larger than 600px';
+        padding: 1em;
+        background-color: #336699;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
