@@ -95,7 +95,7 @@
     main{
         display: flex;
         gap: 2em;
-        padding-inline: 3em
+        padding-inline: 3em;
     }
 
     footer{

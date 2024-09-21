@@ -1,0 +1,68 @@
+@media screen and (max-width: 800px){
+    *{
+        margin:0;
+        padding: 9;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #ededed;
+        font: 14px/1.5 Lato, sans-serif;
+        padding: 3em;
+    }
+
+    td{
+        font-weight: bold;
+    }
+
+
+    table{
+    box-shadow: 0 0 1em(0, 0, 0, 0.1);
+    padding: 1em;
+    border-collapse:collapse;
+    margin-bottom: 2em;
+    letter-spacing: 0.6px;
+    }
+
+    .container{
+        max-width: 620px;
+        display:flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+
+    caption{
+        font-size: 22px;
+        padding: 0.8em;
+        background-color: #ffff;
+        text-align: left;
+        font-weight: 900;
+        box-shadow: 0 0 1em(0, 0, 0, 0.1);
+        border-top-right-radius: 0.3em;
+        border-top-left-radius: 0.3em;
+    }
+
+   tbody{
+        background-color: #fff;
+    }
+
+    tr{
+        border: 0.2px solid #cccc;
+        text-align: left;
+        
+    }
+
+    th, td{
+        padding: 0.5em 0.5em
+    }
+   
+
+    tr.grey, table.second-table > thead{
+        background-color: #eeee;
+    }
+
+    tr.grey > *, thead > *{
+        font-weight:1000;
+    }
+}
