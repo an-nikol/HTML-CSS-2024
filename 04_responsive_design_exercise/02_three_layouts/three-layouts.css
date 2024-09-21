@@ -1,0 +1,223 @@
+@media all{
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #eeee;
+        font: 14px/1.5 Lato, sans-serif;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 2em;
+    }
+
+    header{
+        padding: 2em;
+        margin-bottom: 1em;
+       
+    }
+
+    main{
+        padding-inline: 2em;
+    }
+
+    footer{
+        display: block;
+        background-color: #444444;
+        padding: 1em;
+        color: #ffff;
+        text-align: center;
+        border-radius: 0.2em;
+        font-size: 12px;
+    }
+
+    .site{
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em rgb(0, 0, 0, 0.1);
+    }
+
+    .menu{
+        margin-bottom: 2em;
+    }
+  
+    .menu > *{
+        display: block;
+        border: 1px solid #666666;
+        padding: 1em;
+        text-align: center;
+        background-color: #444444;
+        color: #dddddd;
+        font-size: 11px;
+    }
+    header > h1{
+        color: #009900;
+        font-weight: bold;
+    }
+
+    main > section > h2{
+        margin-bottom: 0.6em;
+        color: #444444;
+        font-weight: 900;
+    }
+
+    main > section.one{
+        margin-bottom: 3em;
+    }
+
+    main > section.two{
+        margin-bottom: 4em;
+    }
+
+    main > section> p{
+        margin-bottom: 1.5em;
+        font-weight: bold;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px){
+    body{
+        padding: 2em;
+    }
+
+    header{
+        padding: 2em;
+        margin-bottom: 1em;
+       
+    }
+
+    main{
+        display: flex;
+        gap: 2em;
+        padding-inline: 3em
+    }
+
+    footer{
+        display: block;
+        background-color: #444444;
+        padding: 1em;
+        color: #ffff;
+        text-align: center;
+        border-radius: 0.2em;
+    }
+
+
+    .site{
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em rgb(0, 0, 0, 0.1);
+    }
+
+
+    .menu{
+        display: flex;
+        margin-bottom: 2em;
+
+    }
+
+    .menu > *{
+        flex: 1 auto;
+        padding: 1em 2em 1em 2em;
+        text-align: center;
+        background-color: #444444;
+        color: #dddddd;
+        border: 1px solid #444444;
+    }
+
+    header > h1{
+        color: #009900;
+        font-weight: bold;
+    }
+
+    main > section.one{
+        margin-bottom: 2em;
+    }
+    
+    main > section> p{
+        margin-bottom: 1.5em;
+        font-weight: bold;
+    }
+
+    main > section > h2{
+        margin-bottom: 0.6em;
+        color: #444444;
+        font-weight: 900;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 2em;
+    }
+
+    header{
+        padding: 2em;
+        margin-bottom: 1em;
+       
+    }
+
+    main{
+        padding-inline: 2em;
+    }
+
+    footer{
+        display: block;
+        background-color: #444444;
+        padding: 1em;
+        color: #ffff;
+        text-align: center;
+        border-radius: 0.2em;
+        font-size: 12px;
+    }
+
+    .site{
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em rgb(0, 0, 0, 0.1);
+    }
+
+    .menu{
+        margin-bottom: 2em;
+    }
+  
+    .menu > *{
+        display: block;
+        border: 1px solid #666666;
+        padding: 1em;
+        text-align: center;
+        background-color: #444444;
+        color: #dddddd;
+        font-size: 11px;
+    }
+    header > h1{
+        color: #009900;
+        font-weight: bold;
+    }
+
+    main > section > h2{
+        margin-bottom: 0.6em;
+        color: #444444;
+        font-weight: 900;
+    }
+
+    main > section.one{
+        margin-bottom: 3em;
+    }
+
+    main > section.two{
+        margin-bottom: 4em;
+    }
+
+    main > section> p{
+        margin-bottom: 1.5em;
+        font-weight: bold;
+    }
+
+}
+
