@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font: 14px/ 1.5 Lato, sans-serif;
+    padding: 5em;
+    display: flex;
+    height: 1000px;
+}
+
+i{
+    font-size: 60px;
+    position: absolute;
+    color: black;
+    position: absolute;
+}
+
+section.left-top, section.right-top, section.left-bottom{
+    position: relative;
+}
+
+section.left-top > i,
+section.right-top > i{
+   top: 10px;
+}
+
+
+section.left-bottom > i{
+    bottom: 330px;
+}
+
+.site{
+    display: flex;
+    margin: auto;
+    gap: 2em;
+}
+
+section.left-col{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex: 0 0 63%;
+}
+
+section.right-col{
+    display: flex;
+}
+
+section.left-col > section{
+    display: flex;
+}
+
+.left-col > section,
+.right-col > section{
+    background-color: #ffff;
+    padding: 6em 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0  1em (0, 0, 0, 0.1);
+    color: grey;
+}
+
+section.right-col > section > p {
+    margin-bottom: 1em;
+}
+
+section.left-col > section > div.content > p {
+    margin-bottom: 1em;
+}
+
+.left-col > section > div.media{
+    aspect-ratio: 1/1;
+    background-color: green;
+    flex: 1 0 30%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+}
+
+.right-col > section > div.media{
+    aspect-ratio: 1/1;
+    background-color: green;
+    width: 10em;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+}
+
