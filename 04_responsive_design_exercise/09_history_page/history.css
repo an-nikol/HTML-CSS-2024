@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #eeee;
+    padding: 2em;
+    font: 14px/1.5 Lato, sans-serif;
+    height: 100vh;
+}
+
+
+header{
+    background-color: #ffff;
+    border-radius: 0.3em;
+    text-align: center;
+    box-shadow: 0 0 1em (0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site{
+    border: 2px solid grey;
+    padding: 1em;
+    margin: auto;
+    max-width: 95vw;
+    position: relative;
+}
+
+main > div.box{
+    max-width: 55vw;
+    flex-grow: 1;
+    padding-right: 15em;
+    padding-left: 1em;
+    margin-bottom: 3em;
+    position: relative;
+  
+}
+
+main > div.box > div.content{
+    padding: 1em;
+    background-color: #ffff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rbg(0, 0, 0, 0.1);
+}
+
+
+main > div.box:nth-child(odd){
+    position: relative;
+    right: -47em;
+}
+
+header::after{
+    content:"";
+    position: absolute;
+    width: 2px;
+    top: 4em;
+    bottom: 0;
+    background-color: #ccc;
+    z-index: 1;
+}
+
+main > div.box:nth-child(odd):before{
+    content: "";
+    position: absolute;
+    left: -8em;
+    transform: translate(-15%, 55%);
+    width: 25px;  
+    height: 25px;  
+    border-radius: 50%; 
+    z-index: 2; 
+    border: 2px solid white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    background-color: orange;
+}
+
+main > div.box:nth-child(even):before{
+    content: "";
+    position: absolute;
+    right: 7em;
+    transform: translate(25%, 52%);
+    width: 25px;  
+    height: 25px;  
+    border-radius: 50%; 
+    z-index: 2; 
+    border: 2px solid white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    background-color: green;
+}
+
+
+@media screen and (max-width: 800px){
+    main > div.box:nth-child(odd){
+       left: 33em;
+    }
+
+    main > div.box:nth-child(even):before{
+        left: 24em;
+    }
+}
+    

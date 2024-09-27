@@ -74,7 +74,8 @@ section.left-col > section > div.content > p {
 .left-col > section > div.media{
     aspect-ratio: 1/1;
     background-color: green;
-    flex: 1 0 30%;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
@@ -83,9 +84,16 @@ section.left-col > section > div.content > p {
 .right-col > section > div.media{
     aspect-ratio: 1/1;
     background-color: green;
-    width: 10em;
+    width: 12vw;
+    height: 12vw;
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
 }
 
+
+@media screen and(max-width: 800px){
+    .left-col > section > div.media{
+        
+    }
+}
