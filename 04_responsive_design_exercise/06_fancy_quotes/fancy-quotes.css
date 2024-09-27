@@ -90,10 +90,3 @@ section.left-col > section > div.content > p {
     border: 5px solid #fff;
     box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
 }
-
-
-@media screen and(max-width: 800px){
-    .left-col > section > div.media{
-        
-    }
-}
