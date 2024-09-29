@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 14px/1.5 Lato, sans-serif;
+    padding: 2em;
+    font-weight: bold;
+}
+
+header{
+    margin-bottom: 2em;
+}
+
+p{
+    font-style: italic;
+}
+
+pre{
+    background-color: #eeee;
+    padding-inline: 2em;
+    height: 35vh;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+}
+
+select{
+    height: 22vh;
+    width: 18vw;
+    background-color: #ffff;
+    border-radius: 0.3em;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+label{
+    position: absolute;
+    top:29.6em
+}
+

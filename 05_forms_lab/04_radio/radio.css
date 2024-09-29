@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 14px/1.5 Lato, sans-serif;
+    padding: 2em;
+    font-weight: bold;
+}
+
+pre{
+    background-color: #eeee;
+    border-radius: 0.3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    height: 55vh;
+}
+
+code{
+    position: relative;
+    top: -1em
+}

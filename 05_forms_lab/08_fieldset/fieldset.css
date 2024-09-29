@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 14px/1.5 Lato, sans-serif;
+    padding: 2em;
+    font-weight: bold;
+}
+
+header{
+    margin-bottom: 2em;
+}
+
+
+pre{
+    background-color: #eeee;
+    padding-inline: 2em;
+    height: 50vh;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+}
+
+select{
+    height: 22vh;
+    width: 18vw;
+    background-color: #ffff;
+    border-radius: 0.3em;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+
+fieldset{
+    padding: 2em;
+    width: 20vw;
+    height: 25vh;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
+
+fieldset legend{
+    padding: 0 1em;
+    margin-left: -1em;
+}
+
+p.field{
+    margin-bottom: 1em;
+}
