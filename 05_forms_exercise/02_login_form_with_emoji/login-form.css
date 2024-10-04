@@ -1,0 +1,112 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    font-size: 1em; /* Base size for scalability */
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 2em;
+}
+
+
+fieldset{
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    height: 80vh;
+}
+
+input{
+    display: block;
+    width: 100%;
+    border: 1px solid grey;
+    height: 3.8em;
+}
+h2{
+    margin-bottom: 2em;
+}
+
+p{
+    margin-bottom: 4em;
+}
+
+h2::after{
+    display: block;
+    content: "";
+    background-color: #a5a3a3ee;
+    height: 2px;
+    width: 6em;
+    position: absolute;
+    bottom: 19em;
+}
+
+p.field > label[for="email"]::after{
+    display: block;
+    content: "*";
+    color:red;
+    font-size: 1.4em;
+    font-weight: bold;
+    position: absolute;
+    top: 7.3em;
+    right: 33.6em
+}
+
+p.field > label[for="password"]::after{
+    display: block;
+    content: "*";
+    color:red;
+    font-size: 1.4em;
+    font-weight: bold;
+    position: absolute;
+    top: 13em;
+    right: 32.4em
+}
+
+input[type="submit"]{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    text-align: center;
+    font-size: 20px;
+}
+
+p.field > label[for="email"]::before{
+    content: "example: konstantin.denko@gmail.com";
+    font-style: italic;
+    color: grey;
+    position: absolute;
+    bottom: 21em;
+
+}
+
+p.field > label[for="password"]::before{
+    content: "Enter minimum 6 chars";
+    font-style: italic;
+    color: grey;
+    position: absolute;
+    bottom: 13em;
+
+}
+
+i {
+    font-size: 25px;
+    position: absolute;
+    right: 16em;
+    
+}
